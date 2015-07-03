@@ -1,7 +1,7 @@
 body {
   background: #333;
   color: #eee;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: 'liga';
