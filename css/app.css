@@ -1,45 +1,23 @@
-body{
-	margin: 0;
-	padding: 0;
-	background: #eee;
-	font-family: Helvtica, sans-serif;
-	color: #655643;
-}
-
-h1 {
-  font-size: 400%; 
-  font-family: 'Kaushan Script', sans-serif;
-  color: #655643;
-}
-
-a {
-  text-decoration: none;
-  color: #655643;
-}
-
-a:hover {
-  color: #C24D2C;
+body {
+  background: #333;
+  color: #eee;
+  font-family: Montserrat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: 'liga';
 }
 
 .container {
+  max-width: 500px;
   margin: 0 auto;
-  max-width: 800px;
-  padding: 10px;
-  width: 100%;
   text-align: center;
 }
 
-ul {
-  margin: 0 auto;
-  text-align: left;
-  width: 50%;
+small {
+  font-size: 0.6em;
+  display: block;
 }
 
-@media screen and (max-width: 32em) {
-  h1 {
-    font-size: 300%;
-  }
-
-  ul {
-    width: 100%;
+a {
+  color: #eee
 }
